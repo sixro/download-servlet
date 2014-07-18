@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <display-name>Download Servlet</display-name>
+
+<!--
+    <servlet>
+        <servlet-name>REST servlet</servlet-name>
+        <servlet-class>com.sun.jersey.spi.spring.container.servlet.SpringServlet</servlet-class>
+        <init-param>
+            <param-name>com.sun.jersey.config.property.packages</param-name>
+            <param-value>ntgc.infrastructure.restful</param-value>
+        </init-param>
+        <init-param>
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Presence servlet</servlet-name>
+        <servlet-class>ntgc.infrastructure.presence.HeadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>REST servlet</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Presence servlet</servlet-name>
+        <url-pattern>/presence/*</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>authenticationFilter</filter-name>
+        <filter-class>ntgc.infrastructure.security.AuthenticationFilter</filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>loggingDecorator</filter-name>
+        <filter-class>ntgc.infrastructure.logging.LoggingDecoratorFilter</filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>statisticsFilter</filter-name>
+        <filter-class>ntgc.infrastructure.statistics.StatisticsFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>authenticationFilter</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>loggingDecorator</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>statisticsFilter</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+	-->
+
+</web-app>
+
