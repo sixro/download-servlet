@@ -1,4 +1,4 @@
 download-servlet
 ================
 
-A servlet hiding knowledge about downloading...
+A set of servlets useful to implements downloads.
