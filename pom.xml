@@ -122,8 +122,10 @@
 				<version>2.5</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
+					<!--
 					<preparationGoals>clean verify</preparationGoals>
 					<arguments>-DskipTests</arguments>
+					  -->
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<useReleaseProfile>false</useReleaseProfile>
 					<releaseProfiles>release</releaseProfiles>
