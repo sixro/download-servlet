@@ -18,7 +18,7 @@ public class RequestToDownloadServletTest {
 	private HttpServletResponse response = context.mock(HttpServletResponse.class);
 	private RequestToDownloadServlet servlet = new RequestToDownloadServlet();
 
-	@Test public void write_the_request_body_in_output_setting_contenttype_and_disposition_using_request_input() throws ServletException, IOException {
+	@Test public void write_the_request_content_in_output_setting_contenttype_and_disposition_using_request_input() throws ServletException, IOException {
 		final String csv = "a,b\n1,2";
 		final StringWriter output = new StringWriter();
 		
